@@ -1,4 +1,4 @@
-# swagger_client.MarketplaceApi
+# paycomet_client.MarketplaceApi
 
 All URIs are relative to *https://rest.paycomet.com*
 
@@ -20,14 +20,14 @@ Make a deposit in a destination account
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.MarketplaceApi()
+api_instance = paycomet_client.MarketplaceApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required)
-body = swagger_client.MarketplaceSplittransferBody() # MarketplaceSplittransferBody |  (optional)
+body = paycomet_client.MarketplaceSplittransferBody() # MarketplaceSplittransferBody |  (optional)
 
 try:
     # Make a transfer to other accounts on PAYCOMET
@@ -41,8 +41,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | 
- **body** | [**MarketplaceSplittransferBody**](MarketplaceSplittransferBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) |
+ **body** | [**MarketplaceSplittransferBody**](MarketplaceSplittransferBody.md)|  | [optional]
 
 ### Return type
 
@@ -70,14 +70,14 @@ Make a split transfer reversal request
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.MarketplaceApi()
+api_instance = paycomet_client.MarketplaceApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required)
-body = swagger_client.MarketplaceSplittransferreversalBody() # MarketplaceSplittransferreversalBody |  (optional)
+body = paycomet_client.MarketplaceSplittransferreversalBody() # MarketplaceSplittransferreversalBody |  (optional)
 
 try:
     # Run a split transfer reversal based on a previous split transfer
@@ -91,8 +91,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | 
- **body** | [**MarketplaceSplittransferreversalBody**](MarketplaceSplittransferreversalBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) |
+ **body** | [**MarketplaceSplittransferreversalBody**](MarketplaceSplittransferreversalBody.md)|  | [optional]
 
 ### Return type
 
@@ -120,14 +120,14 @@ Run a transfer in a destination account
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.MarketplaceApi()
+api_instance = paycomet_client.MarketplaceApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required)
-body = swagger_client.MarketplaceTransferBody() # MarketplaceTransferBody |  (optional)
+body = paycomet_client.MarketplaceTransferBody() # MarketplaceTransferBody |  (optional)
 
 try:
     # Run a transfer
@@ -141,8 +141,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | 
- **body** | [**MarketplaceTransferBody**](MarketplaceTransferBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) |
+ **body** | [**MarketplaceTransferBody**](MarketplaceTransferBody.md)|  | [optional]
 
 ### Return type
 
@@ -170,14 +170,14 @@ Make a transfer reversal based on a previous transfer
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.MarketplaceApi()
+api_instance = paycomet_client.MarketplaceApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required)
-body = swagger_client.MarketplaceTransferreversalBody() # MarketplaceTransferreversalBody |  (optional)
+body = paycomet_client.MarketplaceTransferreversalBody() # MarketplaceTransferreversalBody |  (optional)
 
 try:
     # Make a transfer reversal based on a previous transfer
@@ -191,8 +191,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | 
- **body** | [**MarketplaceTransferreversalBody**](MarketplaceTransferreversalBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) |
+ **body** | [**MarketplaceTransferreversalBody**](MarketplaceTransferreversalBody.md)|  | [optional]
 
 ### Return type
 

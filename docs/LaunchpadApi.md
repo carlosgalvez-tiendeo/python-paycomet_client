@@ -1,4 +1,4 @@
-# swagger_client.LaunchpadApi
+# paycomet_client.LaunchpadApi
 
 All URIs are relative to *https://rest.paycomet.com*
 
@@ -19,13 +19,13 @@ Generate a authorization link. It will send a challenge URL to the client.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LaunchpadApi()
-body = swagger_client.LaunchpadAuthorizationBody() # LaunchpadAuthorizationBody |  (optional)
+api_instance = paycomet_client.LaunchpadApi()
+body = paycomet_client.LaunchpadAuthorizationBody() # LaunchpadAuthorizationBody |  (optional)
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required) (optional)
 
 try:
@@ -40,8 +40,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**LaunchpadAuthorizationBody**](LaunchpadAuthorizationBody.md)|  | [optional] 
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | [optional] 
+ **body** | [**LaunchpadAuthorizationBody**](LaunchpadAuthorizationBody.md)|  | [optional]
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | [optional]
 
 ### Return type
 
@@ -69,13 +69,13 @@ Generate a preauthorization link. It will send a challenge URL to the client.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LaunchpadApi()
-body = swagger_client.LaunchpadPreauthorizationBody() # LaunchpadPreauthorizationBody |  (optional)
+api_instance = paycomet_client.LaunchpadApi()
+body = paycomet_client.LaunchpadPreauthorizationBody() # LaunchpadPreauthorizationBody |  (optional)
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required) (optional)
 
 try:
@@ -90,8 +90,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**LaunchpadPreauthorizationBody**](LaunchpadPreauthorizationBody.md)|  | [optional] 
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | [optional] 
+ **body** | [**LaunchpadPreauthorizationBody**](LaunchpadPreauthorizationBody.md)|  | [optional]
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | [optional]
 
 ### Return type
 
@@ -119,13 +119,13 @@ Generate a subscription link. It will send a challenge URL to the client.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.LaunchpadApi()
-body = swagger_client.LaunchpadSubscriptionBody() # LaunchpadSubscriptionBody |  (optional)
+api_instance = paycomet_client.LaunchpadApi()
+body = paycomet_client.LaunchpadSubscriptionBody() # LaunchpadSubscriptionBody |  (optional)
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required) (optional)
 
 try:
@@ -140,8 +140,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**LaunchpadSubscriptionBody**](LaunchpadSubscriptionBody.md)|  | [optional] 
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | [optional] 
+ **body** | [**LaunchpadSubscriptionBody**](LaunchpadSubscriptionBody.md)|  | [optional]
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | [optional]
 
 ### Return type
 

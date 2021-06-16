@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.v1launchpadsubscription_merchant_data_shipping import V1launchpadsubscriptionMerchantDataShipping  # noqa: E501
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.models.v1launchpadsubscription_merchant_data_shipping import V1launchpadsubscriptionMerchantDataShipping  # noqa: E501
+from paycomet_client.rest import ApiException
 
 
 class TestV1launchpadsubscriptionMerchantDataShipping(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestV1launchpadsubscriptionMerchantDataShipping(unittest.TestCase):
     def testV1launchpadsubscriptionMerchantDataShipping(self):
         """Test V1launchpadsubscriptionMerchantDataShipping"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.v1launchpadsubscription_merchant_data_shipping.V1launchpadsubscriptionMerchantDataShipping()  # noqa: E501
+        # model = paycomet_client.models.v1launchpadsubscription_merchant_data_shipping.V1launchpadsubscriptionMerchantDataShipping()  # noqa: E501
         pass
 
 

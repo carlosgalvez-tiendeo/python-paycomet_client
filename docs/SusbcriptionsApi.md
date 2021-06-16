@@ -1,4 +1,4 @@
-# swagger_client.SusbcriptionsApi
+# paycomet_client.SusbcriptionsApi
 
 All URIs are relative to *https://rest.paycomet.com*
 
@@ -19,14 +19,14 @@ Create subscription, create subscription token
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SusbcriptionsApi()
+api_instance = paycomet_client.SusbcriptionsApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required)
-body = swagger_client.V1SubscriptionBody() # V1SubscriptionBody |  (optional)
+body = paycomet_client.V1SubscriptionBody() # V1SubscriptionBody |  (optional)
 
 try:
     # Create susbcription payment
@@ -40,8 +40,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | 
- **body** | [**V1SubscriptionBody**](V1SubscriptionBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) |
+ **body** | [**V1SubscriptionBody**](V1SubscriptionBody.md)|  | [optional]
 
 ### Return type
 
@@ -69,14 +69,14 @@ Edit subscription, modify subscription token
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SusbcriptionsApi()
+api_instance = paycomet_client.SusbcriptionsApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required)
-body = swagger_client.SubscriptionEditBody() # SubscriptionEditBody |  (optional)
+body = paycomet_client.SubscriptionEditBody() # SubscriptionEditBody |  (optional)
 
 try:
     # Edit susbcription payment
@@ -90,8 +90,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | 
- **body** | [**SubscriptionEditBody**](SubscriptionEditBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) |
+ **body** | [**SubscriptionEditBody**](SubscriptionEditBody.md)|  | [optional]
 
 ### Return type
 
@@ -119,14 +119,14 @@ Delete subscription, remove subscription token
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SusbcriptionsApi()
+api_instance = paycomet_client.SusbcriptionsApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required)
-body = swagger_client.SubscriptionRemoveBody() # SubscriptionRemoveBody |  (optional)
+body = paycomet_client.SubscriptionRemoveBody() # SubscriptionRemoveBody |  (optional)
 
 try:
     # Remove susbcription payment
@@ -140,8 +140,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | 
- **body** | [**SubscriptionRemoveBody**](SubscriptionRemoveBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) |
+ **body** | [**SubscriptionRemoveBody**](SubscriptionRemoveBody.md)|  | [optional]
 
 ### Return type
 

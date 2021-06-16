@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.launchpad_subscription_body import LaunchpadSubscriptionBody  # noqa: E501
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.models.launchpad_subscription_body import LaunchpadSubscriptionBody  # noqa: E501
+from paycomet_client.rest import ApiException
 
 
 class TestLaunchpadSubscriptionBody(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestLaunchpadSubscriptionBody(unittest.TestCase):
     def testLaunchpadSubscriptionBody(self):
         """Test LaunchpadSubscriptionBody"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.launchpad_subscription_body.LaunchpadSubscriptionBody()  # noqa: E501
+        # model = paycomet_client.models.launchpad_subscription_body.LaunchpadSubscriptionBody()  # noqa: E501
         pass
 
 

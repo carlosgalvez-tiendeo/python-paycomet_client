@@ -1,4 +1,4 @@
-# swagger_client.CardsApi
+# paycomet_client.CardsApi
 
 All URIs are relative to *https://rest.paycomet.com*
 
@@ -21,13 +21,13 @@ This method supposes the registration of the card in PAYCOMET, it is not valid f
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.CardsApi()
-body = swagger_client.V1CardsBody() # V1CardsBody |  (optional)
+api_instance = paycomet_client.CardsApi()
+body = paycomet_client.V1CardsBody() # V1CardsBody |  (optional)
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Token actions privilege required) (optional)
 
 try:
@@ -42,8 +42,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V1CardsBody**](V1CardsBody.md)|  | [optional] 
- **paycomet_api_token** | **str**| PAYCOMET API key (Token actions privilege required) | [optional] 
+ **body** | [**V1CardsBody**](V1CardsBody.md)|  | [optional]
+ **paycomet_api_token** | **str**| PAYCOMET API key (Token actions privilege required) | [optional]
 
 ### Return type
 
@@ -71,13 +71,13 @@ edit_user
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.CardsApi()
-body = swagger_client.CardsEditBody() # CardsEditBody |  (optional)
+api_instance = paycomet_client.CardsApi()
+body = paycomet_client.CardsEditBody() # CardsEditBody |  (optional)
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Token actions privilege required) (optional)
 
 try:
@@ -92,8 +92,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**CardsEditBody**](CardsEditBody.md)|  | [optional] 
- **paycomet_api_token** | **str**| PAYCOMET API key (Token actions privilege required) | [optional] 
+ **body** | [**CardsEditBody**](CardsEditBody.md)|  | [optional]
+ **paycomet_api_token** | **str**| PAYCOMET API key (Token actions privilege required) | [optional]
 
 ### Return type
 
@@ -121,13 +121,13 @@ Info about an user card.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.CardsApi()
-body = swagger_client.CardsInfoBody() # CardsInfoBody |  (optional)
+api_instance = paycomet_client.CardsApi()
+body = paycomet_client.CardsInfoBody() # CardsInfoBody |  (optional)
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Query privilege required) (optional)
 
 try:
@@ -142,8 +142,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**CardsInfoBody**](CardsInfoBody.md)|  | [optional] 
- **paycomet_api_token** | **str**| PAYCOMET API key (Query privilege required) | [optional] 
+ **body** | [**CardsInfoBody**](CardsInfoBody.md)|  | [optional]
+ **paycomet_api_token** | **str**| PAYCOMET API key (Query privilege required) | [optional]
 
 ### Return type
 
@@ -171,13 +171,13 @@ cards_physical
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.CardsApi()
-body = swagger_client.CardsPhysicalBody() # CardsPhysicalBody |  (optional)
+api_instance = paycomet_client.CardsApi()
+body = paycomet_client.CardsPhysicalBody() # CardsPhysicalBody |  (optional)
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Token actions privilege required) (optional)
 
 try:
@@ -192,8 +192,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**CardsPhysicalBody**](CardsPhysicalBody.md)|  | [optional] 
- **paycomet_api_token** | **str**| PAYCOMET API key (Token actions privilege required) | [optional] 
+ **body** | [**CardsPhysicalBody**](CardsPhysicalBody.md)|  | [optional]
+ **paycomet_api_token** | **str**| PAYCOMET API key (Token actions privilege required) | [optional]
 
 ### Return type
 
@@ -221,13 +221,13 @@ Deletes the user.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.CardsApi()
-body = swagger_client.CardsDeleteBody() # CardsDeleteBody |  (optional)
+api_instance = paycomet_client.CardsApi()
+body = paycomet_client.CardsDeleteBody() # CardsDeleteBody |  (optional)
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Token actions privilege required) (optional)
 
 try:
@@ -242,8 +242,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**CardsDeleteBody**](CardsDeleteBody.md)|  | [optional] 
- **paycomet_api_token** | **str**| PAYCOMET API key (Token actions privilege required) | [optional] 
+ **body** | [**CardsDeleteBody**](CardsDeleteBody.md)|  | [optional]
+ **paycomet_api_token** | **str**| PAYCOMET API key (Token actions privilege required) | [optional]
 
 ### Return type
 

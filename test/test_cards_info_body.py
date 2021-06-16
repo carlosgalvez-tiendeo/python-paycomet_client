@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.cards_info_body import CardsInfoBody  # noqa: E501
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.models.cards_info_body import CardsInfoBody  # noqa: E501
+from paycomet_client.rest import ApiException
 
 
 class TestCardsInfoBody(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestCardsInfoBody(unittest.TestCase):
     def testCardsInfoBody(self):
         """Test CardsInfoBody"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.cards_info_body.CardsInfoBody()  # noqa: E501
+        # model = paycomet_client.models.cards_info_body.CardsInfoBody()  # noqa: E501
         pass
 
 

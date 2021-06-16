@@ -1,4 +1,4 @@
-# swagger_client.MiraklApi
+# paycomet_client.MiraklApi
 
 All URIs are relative to *https://rest.paycomet.com*
 
@@ -17,14 +17,14 @@ nirakl_invoice_search
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.MiraklApi()
+api_instance = paycomet_client.MiraklApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Query privilege required)
-body = swagger_client.V1InvoicesBody() # V1InvoicesBody |  (optional)
+body = paycomet_client.V1InvoicesBody() # V1InvoicesBody |  (optional)
 
 try:
     # Search Mirakl invoices
@@ -38,8 +38,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Query privilege required) | 
- **body** | [**V1InvoicesBody**](V1InvoicesBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Query privilege required) |
+ **body** | [**V1InvoicesBody**](V1InvoicesBody.md)|  | [optional]
 
 ### Return type
 

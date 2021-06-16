@@ -1,4 +1,4 @@
-# swagger_client.SepaApi
+# paycomet_client.SepaApi
 
 All URIs are relative to *https://rest.paycomet.com*
 
@@ -20,14 +20,14 @@ add_document
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SepaApi()
+api_instance = paycomet_client.SepaApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required)
-body = swagger_client.SepaAdddocumentBody() # SepaAdddocumentBody |  (optional)
+body = paycomet_client.SepaAdddocumentBody() # SepaAdddocumentBody |  (optional)
 
 try:
     # Adds a SEPA document
@@ -41,8 +41,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | 
- **body** | [**SepaAdddocumentBody**](SepaAdddocumentBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) |
+ **body** | [**SepaAdddocumentBody**](SepaAdddocumentBody.md)|  | [optional]
 
 ### Return type
 
@@ -70,14 +70,14 @@ check_customer
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SepaApi()
+api_instance = paycomet_client.SepaApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required)
-body = swagger_client.SepaCheckcustomerBody() # SepaCheckcustomerBody |  (optional)
+body = paycomet_client.SepaCheckcustomerBody() # SepaCheckcustomerBody |  (optional)
 
 try:
     # Check a customers SEPA documentation
@@ -91,8 +91,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | 
- **body** | [**SepaCheckcustomerBody**](SepaCheckcustomerBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) |
+ **body** | [**SepaCheckcustomerBody**](SepaCheckcustomerBody.md)|  | [optional]
 
 ### Return type
 
@@ -120,14 +120,14 @@ check_document
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SepaApi()
+api_instance = paycomet_client.SepaApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required)
-body = swagger_client.SepaCheckdocumentBody() # SepaCheckdocumentBody |  (optional)
+body = paycomet_client.SepaCheckdocumentBody() # SepaCheckdocumentBody |  (optional)
 
 try:
     # Check a SEPA document
@@ -141,8 +141,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | 
- **body** | [**SepaCheckdocumentBody**](SepaCheckdocumentBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) |
+ **body** | [**SepaCheckdocumentBody**](SepaCheckdocumentBody.md)|  | [optional]
 
 ### Return type
 
@@ -170,14 +170,14 @@ sepa_operations
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SepaApi()
+api_instance = paycomet_client.SepaApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required)
-body = swagger_client.SepaOperationsBody() # SepaOperationsBody |  (optional)
+body = paycomet_client.SepaOperationsBody() # SepaOperationsBody |  (optional)
 
 try:
     # Send SEPA operations
@@ -191,8 +191,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | 
- **body** | [**SepaOperationsBody**](SepaOperationsBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) |
+ **body** | [**SepaOperationsBody**](SepaOperationsBody.md)|  | [optional]
 
 ### Return type
 

@@ -1,4 +1,4 @@
-# swagger_client.PreauthorizationsApi
+# paycomet_client.PreauthorizationsApi
 
 All URIs are relative to *https://rest.paycomet.com*
 
@@ -20,15 +20,15 @@ cancel_preauthorization
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PreauthorizationsApi()
+api_instance = paycomet_client.PreauthorizationsApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Preauthorization privilege required)
-order = 'order_example' # str | 
-body = swagger_client.PreauthCancelBody() # PreauthCancelBody |  (optional)
+order = 'order_example' # str |
+body = paycomet_client.PreauthCancelBody() # PreauthCancelBody |  (optional)
 
 try:
     # Cancel previous preauthorization
@@ -42,9 +42,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Preauthorization privilege required) | 
- **order** | **str**|  | 
- **body** | [**PreauthCancelBody**](PreauthCancelBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Preauthorization privilege required) |
+ **order** | **str**|  |
+ **body** | [**PreauthCancelBody**](PreauthCancelBody.md)|  | [optional]
 
 ### Return type
 
@@ -72,15 +72,15 @@ confirm_preauthorization
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PreauthorizationsApi()
+api_instance = paycomet_client.PreauthorizationsApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Preauthorization privilege required)
-order = 'order_example' # str | 
-body = swagger_client.PreauthConfirmBody() # PreauthConfirmBody |  (optional)
+order = 'order_example' # str |
+body = paycomet_client.PreauthConfirmBody() # PreauthConfirmBody |  (optional)
 
 try:
     # Confirm previous preauthorization
@@ -94,9 +94,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Preauthorization privilege required) | 
- **order** | **str**|  | 
- **body** | [**PreauthConfirmBody**](PreauthConfirmBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Preauthorization privilege required) |
+ **order** | **str**|  |
+ **body** | [**PreauthConfirmBody**](PreauthConfirmBody.md)|  | [optional]
 
 ### Return type
 
@@ -124,14 +124,14 @@ create_preauthorization
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PreauthorizationsApi()
+api_instance = paycomet_client.PreauthorizationsApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Preauthorization privilege required)
-body = swagger_client.PaymentsPreauthBody() # PaymentsPreauthBody |  (optional)
+body = paycomet_client.PaymentsPreauthBody() # PaymentsPreauthBody |  (optional)
 
 try:
     # Create preauthorization
@@ -145,8 +145,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Preauthorization privilege required) | 
- **body** | [**PaymentsPreauthBody**](PaymentsPreauthBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Preauthorization privilege required) |
+ **body** | [**PaymentsPreauthBody**](PaymentsPreauthBody.md)|  | [optional]
 
 ### Return type
 
@@ -174,13 +174,13 @@ Creates a preauthorization with reference.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PreauthorizationsApi()
-body = swagger_client.PaymentsPreauthrtokenBody() # PaymentsPreauthrtokenBody |  (optional)
+api_instance = paycomet_client.PreauthorizationsApi()
+body = paycomet_client.PaymentsPreauthrtokenBody() # PaymentsPreauthrtokenBody |  (optional)
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required) (optional)
 
 try:
@@ -195,8 +195,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**PaymentsPreauthrtokenBody**](PaymentsPreauthrtokenBody.md)|  | [optional] 
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | [optional] 
+ **body** | [**PaymentsPreauthrtokenBody**](PaymentsPreauthrtokenBody.md)|  | [optional]
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | [optional]
 
 ### Return type
 

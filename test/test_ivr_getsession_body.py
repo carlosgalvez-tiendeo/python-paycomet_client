@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.ivr_getsession_body import IvrGetsessionBody  # noqa: E501
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.models.ivr_getsession_body import IvrGetsessionBody  # noqa: E501
+from paycomet_client.rest import ApiException
 
 
 class TestIvrGetsessionBody(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestIvrGetsessionBody(unittest.TestCase):
     def testIvrGetsessionBody(self):
         """Test IvrGetsessionBody"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.ivr_getsession_body.IvrGetsessionBody()  # noqa: E501
+        # model = paycomet_client.models.ivr_getsession_body.IvrGetsessionBody()  # noqa: E501
         pass
 
 

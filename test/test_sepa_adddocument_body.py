@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.sepa_adddocument_body import SepaAdddocumentBody  # noqa: E501
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.models.sepa_adddocument_body import SepaAdddocumentBody  # noqa: E501
+from paycomet_client.rest import ApiException
 
 
 class TestSepaAdddocumentBody(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestSepaAdddocumentBody(unittest.TestCase):
     def testSepaAdddocumentBody(self):
         """Test SepaAdddocumentBody"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.sepa_adddocument_body.SepaAdddocumentBody()  # noqa: E501
+        # model = paycomet_client.models.sepa_adddocument_body.SepaAdddocumentBody()  # noqa: E501
         pass
 
 

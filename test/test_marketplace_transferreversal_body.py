@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.marketplace_transferreversal_body import MarketplaceTransferreversalBody  # noqa: E501
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.models.marketplace_transferreversal_body import MarketplaceTransferreversalBody  # noqa: E501
+from paycomet_client.rest import ApiException
 
 
 class TestMarketplaceTransferreversalBody(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestMarketplaceTransferreversalBody(unittest.TestCase):
     def testMarketplaceTransferreversalBody(self):
         """Test MarketplaceTransferreversalBody"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.marketplace_transferreversal_body.MarketplaceTransferreversalBody()  # noqa: E501
+        # model = paycomet_client.models.marketplace_transferreversal_body.MarketplaceTransferreversalBody()  # noqa: E501
         pass
 
 

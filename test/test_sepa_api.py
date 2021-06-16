@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.api.sepa_api import SepaApi  # noqa: E501
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.api.sepa_api import SepaApi  # noqa: E501
+from paycomet_client.rest import ApiException
 
 
 class TestSepaApi(unittest.TestCase):

@@ -1,4 +1,4 @@
-# swagger_client.IVRApi
+# paycomet_client.IVRApi
 
 All URIs are relative to *https://rest.paycomet.com*
 
@@ -19,14 +19,14 @@ check_session
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.IVRApi()
+api_instance = paycomet_client.IVRApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required)
-body = swagger_client.IvrSessionstateBody() # IvrSessionstateBody |  (optional)
+body = paycomet_client.IvrSessionstateBody() # IvrSessionstateBody |  (optional)
 
 try:
     # Checks an IVR session
@@ -40,8 +40,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | 
- **body** | [**IvrSessionstateBody**](IvrSessionstateBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) |
+ **body** | [**IvrSessionstateBody**](IvrSessionstateBody.md)|  | [optional]
 
 ### Return type
 
@@ -69,14 +69,14 @@ get_session
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.IVRApi()
+api_instance = paycomet_client.IVRApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required)
-body = swagger_client.IvrGetsessionBody() # IvrGetsessionBody |  (optional)
+body = paycomet_client.IvrGetsessionBody() # IvrGetsessionBody |  (optional)
 
 try:
     # Creates an IVR session
@@ -90,8 +90,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | 
- **body** | [**IvrGetsessionBody**](IvrGetsessionBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) |
+ **body** | [**IvrGetsessionBody**](IvrGetsessionBody.md)|  | [optional]
 
 ### Return type
 
@@ -119,14 +119,14 @@ session_cancell
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.IVRApi()
+api_instance = paycomet_client.IVRApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required)
-body = swagger_client.IvrSessioncancelBody() # IvrSessioncancelBody |  (optional)
+body = paycomet_client.IvrSessioncancelBody() # IvrSessioncancelBody |  (optional)
 
 try:
     # Cancel an IVR session
@@ -140,8 +140,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | 
- **body** | [**IvrSessioncancelBody**](IvrSessioncancelBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) |
+ **body** | [**IvrSessioncancelBody**](IvrSessioncancelBody.md)|  | [optional]
 
 ### Return type
 

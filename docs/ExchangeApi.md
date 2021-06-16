@@ -1,4 +1,4 @@
-# swagger_client.ExchangeApi
+# paycomet_client.ExchangeApi
 
 All URIs are relative to *https://rest.paycomet.com*
 
@@ -17,13 +17,13 @@ Gets the exchange of an amount.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.ExchangeApi()
-body = swagger_client.V1ExchangeBody() # V1ExchangeBody |  (optional)
+api_instance = paycomet_client.ExchangeApi()
+body = paycomet_client.V1ExchangeBody() # V1ExchangeBody |  (optional)
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Query privilege required) (optional)
 
 try:
@@ -38,8 +38,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V1ExchangeBody**](V1ExchangeBody.md)|  | [optional] 
- **paycomet_api_token** | **str**| PAYCOMET API key (Query privilege required) | [optional] 
+ **body** | [**V1ExchangeBody**](V1ExchangeBody.md)|  | [optional]
+ **paycomet_api_token** | **str**| PAYCOMET API key (Query privilege required) | [optional]
 
 ### Return type
 

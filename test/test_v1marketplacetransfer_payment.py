@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.v1marketplacetransfer_payment import V1marketplacetransferPayment  # noqa: E501
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.models.v1marketplacetransfer_payment import V1marketplacetransferPayment  # noqa: E501
+from paycomet_client.rest import ApiException
 
 
 class TestV1marketplacetransferPayment(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestV1marketplacetransferPayment(unittest.TestCase):
     def testV1marketplacetransferPayment(self):
         """Test V1marketplacetransferPayment"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.v1marketplacetransfer_payment.V1marketplacetransferPayment()  # noqa: E501
+        # model = paycomet_client.models.v1marketplacetransfer_payment.V1marketplacetransferPayment()  # noqa: E501
         pass
 
 

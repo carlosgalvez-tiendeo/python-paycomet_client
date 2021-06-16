@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.v1form_payment_merchant_data_three_ds_requestor_authentication_info import V1formPaymentMerchantDataThreeDSRequestorAuthenticationInfo  # noqa: E501
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.models.v1form_payment_merchant_data_three_ds_requestor_authentication_info import V1formPaymentMerchantDataThreeDSRequestorAuthenticationInfo  # noqa: E501
+from paycomet_client.rest import ApiException
 
 
 class TestV1formPaymentMerchantDataThreeDSRequestorAuthenticationInfo(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestV1formPaymentMerchantDataThreeDSRequestorAuthenticationInfo(unittest.T
     def testV1formPaymentMerchantDataThreeDSRequestorAuthenticationInfo(self):
         """Test V1formPaymentMerchantDataThreeDSRequestorAuthenticationInfo"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.v1form_payment_merchant_data_three_ds_requestor_authentication_info.V1formPaymentMerchantDataThreeDSRequestorAuthenticationInfo()  # noqa: E501
+        # model = paycomet_client.models.v1form_payment_merchant_data_three_ds_requestor_authentication_info.V1formPaymentMerchantDataThreeDSRequestorAuthenticationInfo()  # noqa: E501
         pass
 
 

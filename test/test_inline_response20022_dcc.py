@@ -14,9 +14,9 @@ from __future__ import absolute_import
 
 import unittest
 
-import swagger_client
-from swagger_client.models.inline_response20022_dcc import InlineResponse20022Dcc  # noqa: E501
-from swagger_client.rest import ApiException
+import paycomet_client
+from paycomet_client.models.inline_response20022_dcc import InlineResponse20022Dcc  # noqa: E501
+from paycomet_client.rest import ApiException
 
 
 class TestInlineResponse20022Dcc(unittest.TestCase):
@@ -31,7 +31,7 @@ class TestInlineResponse20022Dcc(unittest.TestCase):
     def testInlineResponse20022Dcc(self):
         """Test InlineResponse20022Dcc"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = swagger_client.models.inline_response20022_dcc.InlineResponse20022Dcc()  # noqa: E501
+        # model = paycomet_client.models.inline_response20022_dcc.InlineResponse20022Dcc()  # noqa: E501
         pass
 
 
