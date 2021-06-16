@@ -10,7 +10,7 @@ For more information, please visit [https://www.paycomet.com](https://www.paycom
 
 ## Requirements.
 
-Python 2.7 and 3.4+
+Python 3.4+
 
 ## Installation & Usage
 ### pip install
