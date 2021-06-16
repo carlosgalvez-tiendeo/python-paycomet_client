@@ -1,6 +1,6 @@
 # paycomet-client
 
-[![Build Status](https://travis-ci.com/carlosgalvez-tiendeo/python-paycomet_client.svg?branch=main)](https://travis-ci.com/carlosgalvez-tiendeo/python-paycomet_client)
+[![Build Status](https://travis-ci.com/carlosgalvez-tiendeo/python-paycomet_client.svg?branch=master)](https://travis-ci.com/carlosgalvez-tiendeo/python-paycomet_client)
 
 PAYCOMET API REST for customers.
 
