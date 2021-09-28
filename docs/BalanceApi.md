@@ -1,4 +1,4 @@
-# paycomet_client.BalanceApi
+# swagger_client.BalanceApi
 
 All URIs are relative to *https://rest.paycomet.com*
 
@@ -17,13 +17,13 @@ Gets the balance of a product. Restricted.
 ```python
 from __future__ import print_function
 import time
-import paycomet_client
-from paycomet_client.rest import ApiException
+import swagger_client
+from swagger_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = paycomet_client.BalanceApi()
-body = paycomet_client.V1BalanceBody() # V1BalanceBody |  (optional)
+api_instance = swagger_client.BalanceApi()
+body = swagger_client.V1BalanceBody() # V1BalanceBody |  (optional)
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Query privilege required) (optional)
 
 try:
@@ -38,8 +38,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V1BalanceBody**](V1BalanceBody.md)|  | [optional]
- **paycomet_api_token** | **str**| PAYCOMET API key (Query privilege required) | [optional]
+ **body** | [**V1BalanceBody**](V1BalanceBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Query privilege required) | [optional] 
 
 ### Return type
 

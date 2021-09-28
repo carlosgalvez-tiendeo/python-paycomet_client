@@ -21,8 +21,8 @@ Name | Type | Description | Notes
 **url_ko** | **str** | Url where the customer will be redirected after finishing a failed transaction. | [optional] 
 **notify_direct_payment** | **int** | Configurate POST notification of the operation result in frictionless payment (possible values: 1 - force notify, 2 - not notify). It will notify if is not informed | [optional] 
 **merchant_data** | [**V1formPaymentMerchantData**](V1formPaymentMerchantData.md) |  | [optional] 
-**id_user** | **int** | Identification of user card given by PAYCOMET | 
-**token_user** | **str** | Identification of user card given by PAYCOMET | 
+**id_user** | **int** | Identification of user card given by PAYCOMET. Mandatory if is a card payment. | 
+**token_user** | **str** | Identification of user card given by PAYCOMET. Mandatory if is a card payment. | 
 **deferred** | **int** | Identify the preauthorization as deferred | [optional] [default to 0]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

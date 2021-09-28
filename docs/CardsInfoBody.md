@@ -3,8 +3,8 @@
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**id_user** | **int** | Identification of user card given by PAYCOMET | 
-**token_user** | **str** | Identification of user card given by PAYCOMET | 
+**id_user** | **int** | Identification of user card given by PAYCOMET. Mandatory if is a card payment. | 
+**token_user** | **str** | Identification of user card given by PAYCOMET. Mandatory if is a card payment. | 
 **terminal** | **int** | Product or terminal Id. | 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

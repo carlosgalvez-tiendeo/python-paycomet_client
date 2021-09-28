@@ -7,6 +7,10 @@ Name | Type | Description | Notes
 **amount** | **str** |  | [optional] 
 **currency** | **str** |  | [optional] 
 **method_id** | **int** |  | [optional] 
+**auth_code** | **str** |  | [optional] 
+**id_user** | **int** |  | [optional] 
+**token_user** | **str** |  | [optional] 
+**card_country** | **str** |  | [optional] 
 **subscription** | [**InlineResponse20019Subscription**](InlineResponse20019Subscription.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

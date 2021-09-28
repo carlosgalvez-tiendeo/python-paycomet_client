@@ -1,4 +1,4 @@
-# paycomet_client.RefundApi
+# swagger_client.RefundApi
 
 All URIs are relative to *https://rest.paycomet.com*
 
@@ -17,15 +17,15 @@ execute_refund
 ```python
 from __future__ import print_function
 import time
-import paycomet_client
-from paycomet_client.rest import ApiException
+import swagger_client
+from swagger_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = paycomet_client.RefundApi()
+api_instance = swagger_client.RefundApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Refund privilege required)
-order = 'order_example' # str |
-body = paycomet_client.OrderRefundBody() # OrderRefundBody |  (optional)
+order = 'order_example' # str | 
+body = swagger_client.OrderRefundBody() # OrderRefundBody |  (optional)
 
 try:
     # Perform a refund
@@ -39,9 +39,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Refund privilege required) |
- **order** | **str**|  |
- **body** | [**OrderRefundBody**](OrderRefundBody.md)|  | [optional]
+ **paycomet_api_token** | **str**| PAYCOMET API key (Refund privilege required) | 
+ **order** | **str**|  | 
+ **body** | [**OrderRefundBody**](OrderRefundBody.md)|  | [optional] 
 
 ### Return type
 

@@ -10,8 +10,8 @@ Name | Type | Description | Notes
 **method_id** | **str** | PAYCOMET payment method ID. 1 is for card. | 
 **original_ip** | **str** | IP Address of the customer that initiated the payment transaction | 
 **secure** | **int** | 0 or 1. Indicates if the transaction is secure. | 
-**id_user** | **int** | Identification of user card given by PAYCOMET | 
-**token_user** | **str** | Identification of user card given by PAYCOMET | 
+**id_user** | **int** | Identification of user card given by PAYCOMET. Mandatory if is a card payment. | 
+**token_user** | **str** | Identification of user card given by PAYCOMET. Mandatory if is a card payment. | 
 **scoring** | **str** | Risk scoring value from 0 to 100. | [optional] 
 **product_description** | **str** | Description of the product sold. | [optional] 
 **merchant_descriptor** | **str** | Allows the business to send a text up to 25 characters that will be printed on the customer invoice. Limited to simple characters, no accents or special characters. | [optional] 

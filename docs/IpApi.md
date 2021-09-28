@@ -1,4 +1,4 @@
-# paycomet_client.IpApi
+# swagger_client.IpApi
 
 All URIs are relative to *https://rest.paycomet.com*
 
@@ -17,13 +17,13 @@ Country by IP
 ```python
 from __future__ import print_function
 import time
-import paycomet_client
-from paycomet_client.rest import ApiException
+import swagger_client
+from swagger_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = paycomet_client.IpApi()
-body = paycomet_client.V1IpBody() # V1IpBody |  (optional)
+api_instance = swagger_client.IpApi()
+body = swagger_client.V1IpBody() # V1IpBody |  (optional)
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Query privilege required) (optional)
 
 try:
@@ -38,8 +38,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V1IpBody**](V1IpBody.md)|  | [optional]
- **paycomet_api_token** | **str**| PAYCOMET API key (Query privilege required) | [optional]
+ **body** | [**V1IpBody**](V1IpBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Query privilege required) | [optional] 
 
 ### Return type
 

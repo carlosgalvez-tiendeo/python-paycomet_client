@@ -1,4 +1,4 @@
-# paycomet_client.PaymentsApi
+# swagger_client.PaymentsApi
 
 All URIs are relative to *https://rest.paycomet.com*
 
@@ -20,13 +20,13 @@ Generate a purchase. It will confirms a charge or send a challenge URL to the co
 ```python
 from __future__ import print_function
 import time
-import paycomet_client
-from paycomet_client.rest import ApiException
+import swagger_client
+from swagger_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = paycomet_client.PaymentsApi()
-body = paycomet_client.V1PaymentsBody() # V1PaymentsBody |  (optional)
+api_instance = swagger_client.PaymentsApi()
+body = swagger_client.V1PaymentsBody() # V1PaymentsBody |  (optional)
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required) (optional)
 
 try:
@@ -41,8 +41,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V1PaymentsBody**](V1PaymentsBody.md)|  | [optional]
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | [optional]
+ **body** | [**V1PaymentsBody**](V1PaymentsBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | [optional] 
 
 ### Return type
 
@@ -70,13 +70,13 @@ Generate a purchase with reference. It will confirms a charge or send a challeng
 ```python
 from __future__ import print_function
 import time
-import paycomet_client
-from paycomet_client.rest import ApiException
+import swagger_client
+from swagger_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = paycomet_client.PaymentsApi()
-body = paycomet_client.PaymentsRtokenBody() # PaymentsRtokenBody |  (optional)
+api_instance = swagger_client.PaymentsApi()
+body = swagger_client.PaymentsRtokenBody() # PaymentsRtokenBody |  (optional)
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required) (optional)
 
 try:
@@ -91,8 +91,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**PaymentsRtokenBody**](PaymentsRtokenBody.md)|  | [optional]
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | [optional]
+ **body** | [**PaymentsRtokenBody**](PaymentsRtokenBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required) | [optional] 
 
 ### Return type
 
@@ -120,15 +120,15 @@ operation_info
 ```python
 from __future__ import print_function
 import time
-import paycomet_client
-from paycomet_client.rest import ApiException
+import swagger_client
+from swagger_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = paycomet_client.PaymentsApi()
+api_instance = swagger_client.PaymentsApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Query privilege required)
-order = 'order_example' # str |
-body = paycomet_client.OrderInfoBody() # OrderInfoBody |  (optional)
+order = 'order_example' # str | 
+body = swagger_client.OrderInfoBody() # OrderInfoBody |  (optional)
 
 try:
     # Get info of a order
@@ -142,9 +142,9 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Query privilege required) |
- **order** | **str**|  |
- **body** | [**OrderInfoBody**](OrderInfoBody.md)|  | [optional]
+ **paycomet_api_token** | **str**| PAYCOMET API key (Query privilege required) | 
+ **order** | **str**|  | 
+ **body** | [**OrderInfoBody**](OrderInfoBody.md)|  | [optional] 
 
 ### Return type
 
@@ -172,14 +172,14 @@ operation_search
 ```python
 from __future__ import print_function
 import time
-import paycomet_client
-from paycomet_client.rest import ApiException
+import swagger_client
+from swagger_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = paycomet_client.PaymentsApi()
+api_instance = swagger_client.PaymentsApi()
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Query privilege required)
-body = paycomet_client.PaymentsSearchBody() # PaymentsSearchBody |  (optional)
+body = swagger_client.PaymentsSearchBody() # PaymentsSearchBody |  (optional)
 
 try:
     # Search orders
@@ -193,8 +193,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **paycomet_api_token** | **str**| PAYCOMET API key (Query privilege required) |
- **body** | [**PaymentsSearchBody**](PaymentsSearchBody.md)|  | [optional]
+ **paycomet_api_token** | **str**| PAYCOMET API key (Query privilege required) | 
+ **body** | [**PaymentsSearchBody**](PaymentsSearchBody.md)|  | [optional] 
 
 ### Return type
 

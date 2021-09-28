@@ -9,8 +9,8 @@ Name | Type | Description | Notes
 **amount** | **str** | Amount of the operation in number format. 1.00 EURO &#x3D; 100, 4.50 EUROS &#x3D; 450... | 
 **currency** | **str** | Currency of the transaction.  | 
 **original_ip** | **str** | IP Address of the customer that initiated the payment transaction | 
-**id_user** | **int** | Identification of user card given by PAYCOMET | 
-**token_user** | **str** | Identification of user card given by PAYCOMET | 
+**id_user** | **int** | Identification of user card given by PAYCOMET. Mandatory if is a card payment. | 
+**token_user** | **str** | Identification of user card given by PAYCOMET. Mandatory if is a card payment. | 
 **secure** | **int** | 0 or 1. Indicates if the transaction is secure. | 
 **scoring** | **str** | Risk scoring value from 0 to 100. | [optional] 
 **product_description** | **str** | Description of the product sold. | [optional] 

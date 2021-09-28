@@ -1,4 +1,4 @@
-# paycomet_client.FormApi
+# swagger_client.FormApi
 
 All URIs are relative to *https://rest.paycomet.com*
 
@@ -17,13 +17,13 @@ Create form for user capture. Set operationType and attach the default request, 
 ```python
 from __future__ import print_function
 import time
-import paycomet_client
-from paycomet_client.rest import ApiException
+import swagger_client
+from swagger_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = paycomet_client.FormApi()
-body = paycomet_client.V1FormBody() # V1FormBody |  (optional)
+api_instance = swagger_client.FormApi()
+body = swagger_client.V1FormBody() # V1FormBody |  (optional)
 paycomet_api_token = 'paycomet_api_token_example' # str | PAYCOMET API key (Authorization privilege required, token actions privilege required in case of tokenization) (optional)
 
 try:
@@ -38,8 +38,8 @@ except ApiException as e:
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **body** | [**V1FormBody**](V1FormBody.md)|  | [optional]
- **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required, token actions privilege required in case of tokenization) | [optional]
+ **body** | [**V1FormBody**](V1FormBody.md)|  | [optional] 
+ **paycomet_api_token** | **str**| PAYCOMET API key (Authorization privilege required, token actions privilege required in case of tokenization) | [optional] 
 
 ### Return type
 
